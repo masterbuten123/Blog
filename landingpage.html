@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="landingpage.css">
+</head>
+<body>
+ <div class="buttons">
+  <button class="signin" id="registerBtn">SignIn</button>
+  <button id="loginBtn" class="login">Login</button>
+</div>
+    <div id="registerPopup" class="popup">
+        <form class="popup-content" action="submit_registration" method="post">
+          <span class="onclose">&times;</span>
+          <h2>Register</h2>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+
+
+          <button type="submit">Submit</button>
+          <a href=""></a>
+        </form>
+    </div>
+    <div id="loginPopup" class="popup">
+      <form class="popup-content" action="/submit_login" method="post">
+          <span class="onclose">&times;</span>
+          <h2>Login</h2>
+          <label for="loginEmail">Email</label>
+          <input type="email" id="loginEmail" name="email" required>
+
+          <label for="loginPassword">Password</label>
+          <input type="password" id="loginPassword" name="password" required>
+
+          <button type="submit">Login</button>
+      </form>
+  </div>
+  <div class="kcontainer">
+    <p>Kabute Inc<p>
+  </div>
+
+  <div class="wrapper">
+    <div class="nav" id="nav">
+        <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="mushrooms.html">About mushroom</a>
+        <a href="#">The Step</a>
+        <a href="#">Contact</a>
+    </div>
+    <span onclick="openNav()" class="open" id="open">&#9776;</span>
+</div>
+
+  <footer class="foot">
+    <div class="footer-container">
+      <p>Alright Reserve</p>
+      <div class="vertical-line"></div>
+      <p>Kabute Inc</p>
+    </div>
+  </footer>
+
+  <script>
+    function openNav() {
+        document.getElementById("open").style.display = "none";
+        document.getElementById("nav").style.width = "100%";
+    }
+    function closeNav() {
+        document.getElementById("nav").style.width = "0";
+        document.getElementById("open").style.display = "block";
+    }
+ 
+
+    
+
+
+</script>
+<script src="signup.js"></script>
+
+
+</body>
+</html>

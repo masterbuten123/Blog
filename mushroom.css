@@ -1,0 +1,9 @@
+body{
+    font-family: helvetica, serif;
+}
+
+img{
+    display: block;
+   width: 30%;
+   height: 30%;
+}

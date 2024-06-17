@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('C:/SKOL WORKS/HCI PROJECT/background.jpeg'); /* Adjust this path as needed */
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  
+}
+.kcontainer {
+  position: absolute;
+  left: 75px;
+  top: 0px;
+  color: white;
+  font-size: 35px;
+ 
+}
+
+.foot {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.vertical-line {
+  border-left: 2px solid white;
+  height: 20px;
+}
+
+.signin{
+    position: absolute;
+    top: 2em;
+    right: 5em;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #ffffff; 
+    color: #ffffff; 
+    padding: 5px 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+.login{
+  position: absolute;
+  top: 2em;
+  right: 10em;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #ffffff; 
+  color: #ffffff; 
+  padding: 5px 5px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: all 0.3s ease; 
+}
+.login:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #000000; 
+  border-color: #000000; 
+}
+
+
+.signin:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #000000; 
+  border-color: #000000; 
+}
